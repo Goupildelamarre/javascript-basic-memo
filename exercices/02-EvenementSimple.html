@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="whatITyped"></h1>
+
+    <input type="text" id="monInput">
+    <script>
+        let monInput = document.getElementById('monInput');
+        let whatITyped = document.getElementById('whatITyped');
+        
+        let phrase = "";
+
+        monInput.addEventListener('keypress', function(e) {
+            console.log(e);
+            // TODO: Ajouter la clé tapée à "phrase"
+            console.log(phrase)
+            // Modifier le HTML de "whatITyped"
+        })
+    </script>
+</body>
+</html>

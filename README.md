@@ -154,13 +154,20 @@ node.classList.contains('class-name')
 node.classList.replace('old', 'new')
 ```
 
-
 ### Supprimer un node
 ```javascript 
 parentNode.removeChild(nodeToRemove)
 // Hack to remove self
 nodeToRemove.parentNode.removeChild(nodeToRemove)
 ```
+
+### Les événements
+```javascript 
+    node.addEventListener('event-name', fonction);
+    node.removeEventListener('event-name', fonction);
+```
+[Les différents types d'événements](https://developer.mozilla.org/fr/docs/Web/Events)
+
 
 ### Qu'est-ce que un "Node" ? 
 **Node** : Chaque élément dans l'arbre du DOM est appelé un node. Il y a deux types de nodes: un "text node" et un "element node"
@@ -169,7 +176,7 @@ nodeToRemove.parentNode.removeChild(nodeToRemove)
 ** Node Parent** : Un node qui est le parent d'un autre 
 ** Node Sisbling** : Un node qui partage le même parent 
 
-# Propriétés auto-héritées
+# Propriétés auto-héritées aux types
 * [String](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String)
 * [Number](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Number)
 * [Boolean](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Boolean)
@@ -177,3 +184,5 @@ nodeToRemove.parentNode.removeChild(nodeToRemove)
 
 
 Inspiré et traduit de l'anglais depuis [javascript-cheatsheet](https://github.com/iLoveCodingOrg/javascript-cheatsheet)
+
+[Pour aller plus loin: devhints.io/es6](https://devhints.io/es6)
