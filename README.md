@@ -1,4 +1,4 @@
-# 
+# Mémo JavaScript
 
 # Types
 ### Six **types** primitifs
@@ -29,7 +29,7 @@
 * 'cafe' est la variable 
 * '=' est l'opérateur 
 * '5 + 4' est l'expression
-* 
+  
 #L'Objet
 Un objet est un type de donnée en JavaScript utilité pour contenir une combinaison de données grâce à une simple paire clé-valeur
 ```javascript
@@ -53,13 +53,13 @@ function add(param1, param2) {
 }
 ```
 
-#Opérateurs#
+# Opérateurs #
 
 [Les opérateurs sont est mots-réservés qui exécutent une action sur les valeurs ou variables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
 
 
-#Conditions#
-###IF/Else###
+# Conditions #
+### IF/Else ###
 ```javascript
 if (a > 0) {
     // run this code
@@ -88,14 +88,14 @@ switch (expression) {
 }
 ```
 # Boucles
-###Boucle for
+### Boucle for
 ```javascript 
 for (initial-expression; condition; second-expression){
     // run this code in block
 }
 ```
 
-###Boucle while
+### Boucle while
 ```javascript 
 while (i<3){
     // run this code in block
@@ -111,7 +111,7 @@ i++;
 } while (i<3);
 ```
 
-#Manipuler le DOM (Document Object Modal)
+# Manipuler le DOM (Document Object Modal)
 ### Récupérer des éléments
 ```javascript 
 // Preferred way:
@@ -172,9 +172,9 @@ nodeToRemove.parentNode.removeChild(nodeToRemove)
 ### Qu'est-ce que un "Node" ? 
 **Node** : Chaque élément dans l'arbre du DOM est appelé un node. Il y a deux types de nodes: un "text node" et un "element node"
 
-** Node Enfant** : Un node qui est l'enfant d'un autre 
-** Node Parent** : Un node qui est le parent d'un autre 
-** Node Sisbling** : Un node qui partage le même parent 
+**Node Enfant** : Un node qui est l'enfant d'un autre 
+**Node Parent** : Un node qui est le parent d'un autre 
+**Node Sisbling** : Un node qui partage le même parent 
 
 # Propriétés auto-héritées aux types
 * [String](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String)
